@@ -1,0 +1,214 @@
+@import bourbon
+@import vars.sass
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+
+
+.about
+	h2
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 70px
+		color: #8c6239 
+	p
+		font-family: "OpenSans-Regular",sans-serif
+		font-size: 16px
+		color: #3b3b3b
+.img_home
+	margin-top: 30px
+	margin-bottom: 30px
+	width: 100%
+.our_work
+	position: relative         
+	padding-bottom: 100px
+	background-image: url("img/tile.jpg")
+	background-size: cover
+	h2
+		margin: 65px 0px
+		text-align: center
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 70px
+		color: #ffffff 	
+		line-height: 1
+
+
+.section_ourwork
+	margin-bottom: 40px
+	text-align: center
+	background-color: #ffffff
+	display: inline-block
+	box-shadow: 10px 10px 10px 4px  rgba(0,0,0,0.3)
+	img
+		width: 100%
+	.content
+		padding: 0px 46px
+	h3
+		padding-top: 30px
+		text-align: center
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 30px
+		color: #8c6239
+		margin: 0px
+	p
+		padding-top: 24px
+		padding-bottom: 33px
+		margin: 0px
+		text-align: left
+		font-family: "OpenSans-Regular",sans-serif
+		font-size: 14px
+		color: #3b3b3b
+	.button
+		padding-top: 7px
+		width: 160px
+		height: 37px
+		margin-bottom: 33px
+		background-color: #8c6239
+		border-bottom: solid 3px #6e4323
+		text-align: center
+		font-size: 14px
+		color: #ffffff
+		font-family: "OpenSans-Semibold",sans-serif
+		display: inline-block	
+.sld-cntr
+	text-align: right
+.sl-btn
+	width: 65px
+	height: 65px
+	display: inline-block
+	background-color: #fff
+	background-image: url(img/slider_buttons.png)
+	background-repeat: no-repeat
+._left
+	background-position: -75px 13px
+._right
+	background-position: 20px 13px
+	margin-right: 30px
+.advantages
+	min-height: 767px
+	margin-bottom: 76px		
+	.img_advantages
+		height: 300px
+		background-image: url("img/advantages.jpg")
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		margin-top: 80px
+	.text_advantages
+		h2	
+			font-size: 70px
+			margin: 49px 0px
+			font-family: "BebasNeueBold",sans-serif
+			color: #8c6239			
+		p
+			font-family: "OpenSans-Regular",sans-serif
+			font-size: 16px
+			color: #3b3b3b 	
+
+
+.paper
+	background-image: url("img/brus.jpg")
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	margin-top: 80px
+	padding-bottom: 70px
+	h2
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 70px
+		color: #ffffff 
+		margin-top: 80px
+		margin-bottom: 70px
+		text-align: center
+	.items_paper
+		margin-bottom: 20px
+		background-color: #ffffff
+		width: 255px
+		height: 360px
+
+
+.info
+	min-height: 300px
+	background-color: #291705
+	padding-bottom: 42px
+	h2
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 50px
+		color: #ffffff 
+		margin-top: 23px
+		margin-bottom: 49px
+	p
+		margin: 0
+		display: inline-block
+		font-family: "OpenSans-Regular", sans-serif
+		font-size: 14px
+		color: #ffffff 
+	.bt_mnu	
+		margin-top: 40px
+		margin-bottom: 63px	
+		ul
+			padding: 0px
+			list-style-type: none
+			li
+				display: inline-block
+				margin-right: 35px
+				font-family: "OpenSans-Bold", sans-serif
+				font-size: 16px
+				a 
+					color: #ffffff
+					display: block
+					letter-spacing: -1.4px
+				&:hover
+					text-decoration: underline
+	.items
+		.icon
+			margin: 0 auto 
+			width: 91px
+			height: 91px
+			background-image: url("img/item_set.png")
+		.maill
+			background-position: 91px 0px
+		a
+			text-align: center
+			font-family: "OpenSans-Semibold", sans-serif
+			font-size: 30px
+			color: #ffffff
+h2
+	font-family: "Bebas Neue Bold",sans-serif
+	font-size: 50px
+	color: #8c6239 
+h3
+	font-family: "Bebas Neue Bold",sans-serif
+	font-size: 30px
+	color: #ffffff
+
+#owl-example .item 
+	margin: 0 15px
+
+
+//ALWAYS END
+@import media
+
+//Load Libs SASS
+@import app/libs/animate/animate.sass
