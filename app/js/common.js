@@ -8,7 +8,7 @@ $(function() {
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [980,2],
     itemsTablet: [768,1],
- 		pagination: false
+ 		pagination: false,
  
 	});
 

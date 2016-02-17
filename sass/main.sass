@@ -100,6 +100,8 @@ body textarea:required:valid
 	background-color: #fff
 	background-image: url(img/slider_buttons.png)
 	background-repeat: no-repeat
+	cursor: pointer
+	user-select: none
 ._left
 	background-position: -75px 13px
 ._right
@@ -150,8 +152,7 @@ body textarea:required:valid
 
 .info
 	min-height: 300px
-	background-color: #291705
-	padding-bottom: 42px
+	background-color: #4C4C4C
 	h2
 		font-family: "BebasNeueBold",sans-serif
 		font-size: 50px
@@ -205,8 +206,72 @@ h3
 
 #owl-example .item 
 	margin: 0 15px
+p.infape
+	text-align: center
+	width: 100%
+	font-size: 16px
+	margin-top: 30px
+	margin-bottom: 20px
 
 
+
+
+// Style for second page
+.single_text
+	margin-top: 70px
+	.main_home
+		width: 100%
+		border: solid 4px #8c6239
+	h2
+		font-family: "BebasNeueBold",sans-serif
+		font-size: 40px
+		line-height: 40px
+		color: #8c6239
+		margin: 50px 0
+	p
+		margin-bottom: 70px
+		font-family: "OpenSans-Regular", sans-serif
+		font-size: 15px
+		line-height: 15px
+		color: #3b3b3b 	
+form
+	display: inline-block
+.search
+	display: inline-block
+	width: 236px
+	height: 50px
+	background-color: #ebebeb
+input[type="search"]	
+	margin: 0
+	border: none
+	outline: 0
+	padding-top: 20px
+	padding-left: 18px
+	line-height: 15px
+	font-size: 15px
+	font-family: "OpenSans-Bold", sans-serif
+	color: #8c6239
+	//Цвет текста placeholder
+::-webkit-input-placeholder 
+	color: #8c6239
+::-moz-placeholder     
+   color: #8c6239/* Firefox 19+ */
+:-moz-placeholder     
+   color: #8c6239/* Firefox 18- */
+:-ms-input-placeholder  
+	color: #8c6239
+	//
+	&:hover		
+		text-decoration: none
+	//Стили для поисковика
+input[type="submit"]
+	outline: 0
+	width: 26px
+	height: 26px
+	position: absolute
+	border: none
+	background: url(img/Search.png) no-repeat
+	padding: 0
 //ALWAYS END
 @import media
 

@@ -22,11 +22,11 @@
 				li
 					margin-right: 15px 
 		.items
+			text-align: center
 			a
 				font-size: 20px
 				line-height: 30px
-		.xs-center
-			text-align: center
+		
 
 
 /* Medium Devices, Desktops */
@@ -49,6 +49,8 @@
 			margin: 30px 0px
 	.info h2 
 		margin-bottom: 20px
+	.items
+		text-align: center
 
 
 
@@ -115,10 +117,14 @@
 			font-size: 40px
 			line-height: 40px
 			margin: 30px
+		p
+			margin-bottom: 40px
+	.bt_mnu
+			display: none
 	.info .items
 		text-align: center
-	.info .items a
-		line-height: 40px
+	.sm-items
+		margin-bottom: 30px
 
 
 
@@ -148,15 +154,13 @@
 @media only screen and (max-width : 480px)
 	.top_bg
 		h1
-			font-size: 40px
-		.bt_line .mnu ul li
-				margin-right: 10px
-				font-size: 15px
+			font-size: 45px
+			margin: 100px 0
 	.about_us
 		h2
 			text-align: center
-			margin: 20px
-			font-size: 35px   
+			margin: 30px
+			font-size: 40px   
 		.p-about
 			font-size: 16px 
 	.home
@@ -167,43 +171,46 @@
 	.our_work
 		padding-bottom: 30px
 		h2
-			font-size: 35px
-			margin: 20px 0px
+			font-size: 40px
+			margin: 30px 0px
 	.advantages
 		.img_advantages
-			margin-top: 40px
+			margin-top: 50px
 		.text_advantages
 			h2
 				text-align: center
-				font-size: 35px
-				line-height: 35px
+				font-size: 40px
+				line-height: 40px
 	.paper
 		padding-bottom: 20px
 		h2
-			font-size: 35px
-			line-height: 35px
-			margin: 20px
+			font-size: 40px
+			line-height: 40px
+			margin: 30px
 	.info
 		h2
 			text-align: center
-			font-size: 35px
-			line-height: 35px
-			margin: 20px
+			font-size: 40px
+			line-height: 40px
+			margin: 30px
 		.p-info
 			font-size: 16px
+		.bt_mnu
+			display: none
 		.items
-    			text-align: center
+			text-align: center
 		.sm-items
-			margin-bottom: 20px !important
-
-
+			margin-bottom: 30px
+		.sm-items
+			width: 100%
+			margin-top: 10px
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
 	.top_bg
 		h1	
-			font-size: 35px
-			padding: 0px 20px
+		font-size: 35px
+		padding: 0px 20px
 	.about_us p 
 		text-align: center
 		padding: 0px 5px
@@ -276,3 +283,7 @@
 			font-size: 35px
 			line-height: 35px
 			margin: 30px
+		.p-info
+			margin-bottom: 30px
+		.bt_mnu
+			display: none
